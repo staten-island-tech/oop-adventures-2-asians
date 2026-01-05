@@ -1,7 +1,7 @@
 
 """ idiot is goblin """
-""" dumb is wizard """
-""" retard is enemies_tank """
+""" dumb is skellyton """
+""" retard is robber """
 
 class idiot:
     def __init__(self, name, health, attack, armor):
