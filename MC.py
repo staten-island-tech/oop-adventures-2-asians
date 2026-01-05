@@ -1,6 +1,6 @@
 
 class Tank:
-    def __init__(self, name, health, attack, armor, level, exp, maxhealth, defense_ability):
+    def __init__(self, name, health, attack, armor, level, exp, maxhealth, ability, damage_type):
         self.name = name
         self.health = health
         self.attack = attack
@@ -8,8 +8,10 @@ class Tank:
         self.level = level
         self.exp = exp
         self.maxhealth = maxhealth
-        self.defense_ability = defense_ability
-    def takedamage(self, damage, damage_type = 'physical'):
+        self.defense_ability = ability
+        self.damage_type = damage_type
+
+    def takedamage(self, damage, damage_type):
         if damage_type == 'magical':
             damage_after_armor = damage * 0.75
         else:
@@ -17,8 +19,6 @@ class Tank:
             
         self.health -= damage_after_armor
         self.health = max(0, self.health)
-    def attack_dmg(self, damage):
-
-        
-
-
+    def attack_dmg(self, target):
+        """Attack another character"""
+        target.takedamage(self.attack, self.damage_type)
