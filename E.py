@@ -1,4 +1,3 @@
-
 '''Enemies Classes'''
 
 class goblin:
@@ -26,10 +25,3 @@ class robber:
         self.attack = attack
         self.armor = armor      
         self.ability = combat_steal_item
-
-
-
-
-        
-
-
