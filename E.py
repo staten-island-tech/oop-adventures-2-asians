@@ -1,4 +1,5 @@
 
+'''Enemies Classes'''
 
 class goblin:
     def __init__(self, name, health, attack, armor, daggers):
