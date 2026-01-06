@@ -1,6 +1,7 @@
 
 class Tank:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     def __init__(self, health, attack, armor, level, exp):
         self.health = health
         self.attack = attack
@@ -9,6 +10,8 @@ class Tank:
         self.exp = exp
         
 =======
+=======
+>>>>>>> Stashed changes
     def __init__(self, name, earthquake):
         self.name = name
         self.health = 130
@@ -137,5 +140,9 @@ class Healer:
         self.armor += 2
         self.health = self.maxhealth
 
+<<<<<<< Updated upstream
+        print(f"{self.name} leveled up to Level {self.level}!")
+>>>>>>> Stashed changes
+=======
         print(f"{self.name} leveled up to Level {self.level}!")
 >>>>>>> Stashed changes
