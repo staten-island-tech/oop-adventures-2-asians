@@ -1,12 +1,12 @@
 '''Enemies Classes'''
 
 class goblin:
-    def __init__(self, name, health, attack, armor, daggers):
+    def __init__(self, name, health, attack, armor, fast_daggers):
         self.name = name
         self.health = health
         self.attack = attack
         self.armor = armor 
-        self.ability = daggers
+        self.ability = fast_daggers
 
 
 class skellyton:
