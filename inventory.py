@@ -4,15 +4,17 @@ class Item:
         self.rarity = rarity
         self.stats = stats or {}
 
-    def rarity_multiplier(self):
-        if self.rarity == "uncommon":
-            return 1.1
-        elif self.rarity == "epic":
-            return 1.4
-        elif self.rarity == "mythic":
-            return 1.8
-        else:
-            return 1.0
+    # def rarity_multiplier(self):
+    #     if self.rarity == "uncommon":
+    #         return 1.1
+    #     elif self.rarity == "epic":
+    #         return 1.4
+    #     elif self.rarity == "mythic":
+    #         return 1.8
+    #     else:
+    #         return 1.0
+
+# change this to the thing in shop.py later``
 
     def get_scaled_stats(self):
         scaled_stats = {}
