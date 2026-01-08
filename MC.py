@@ -169,4 +169,3 @@ class Warrior:
         self.health = self.maxhealth
 
         print(f"{self.name} leveled up to Level {self.level}!")
-
