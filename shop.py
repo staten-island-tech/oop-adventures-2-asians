@@ -50,4 +50,3 @@ class Armor():
         self.stats = stats
         self.stock = stock
 helmet = []
-
