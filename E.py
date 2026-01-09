@@ -25,3 +25,12 @@ class robber:
         self.attack = attack
         self.armor = armor      
         self.ability = combat_steal_item
+
+
+class boss_slime:
+    def __init__(self, name, health, attack, armor, combat_steal_item):
+        self.name = name
+        self.health = health
+        self.attack = attack
+        self.armor = armor      
+        self.ability = combat_steal_item
