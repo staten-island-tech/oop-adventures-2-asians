@@ -1,39 +1,31 @@
-
+import random
 class Shop:
-<<<<<<< HEAD
     selected_items_cart = []
-=======
-    def __init__(self, items)
-        self.items = ["Sean", "Leo"]
-    def weapons(Sword, Staff, Dagger, Bow, Shield, Axe, Wand):
-
+    total = 0
+    def __init__(self, uncommon, epic, mythic):
+        self.uncommon = uncommon
+        self.epic = epic
+        self.mythic = mythic 
     
-
-    def potions(strength, defense, speed, heal, mana, luck):
 
 
     
-
->>>>>>> Inventory-System-
-    def rarity(uncommon, epic, mythic):
-
-
-    
-<<<<<<< HEAD
-    def buy(self, coin, selected_items_cart):
-        if coin > selected_items_cart:
+    def buy(self, coin, price, selected_items_cart, inv):
+        if coin >= price:
+            selected_items_cart.append(inv)
         
     def sell(self, items):
-    
+      return  
 
 class Potions():
-
-
-
-
-
-
-
+    def __init__(self,title, price, rarity, stats, stock):
+        self.title = title
+        self.price = price
+        self.rarity = rarity
+        self.stats = stats
+        self.stock = stock
+    def items(self, Heal, Charm, Luck, Stength):
+        return
 
 
 class Weapons:
@@ -43,7 +35,15 @@ class Weapons:
         self.rarity = rarity
         self.stats = stats
         self.stock = stock
-    
+
+
+Sword = Weapons()
+Bow = Weapons()
+OffhandShield = Weapons()
+Dagger = Weapons()
+Battleaxe = Weapons()
+MajicStaff = Weapons()
+Wand = Weapons()
 
 
 
@@ -56,13 +56,3 @@ class Armor():
         self.rarity = rarity
         self.stats = stats
         self.stock = stock
-
-
-
-=======
-    def buy(self, coin, item_selected):
-        if coin > item_selected
-    
-    def sell():
-Aayans = shop(["Sean", "Leo"])
->>>>>>> Inventory-System-
