@@ -11,6 +11,7 @@ class Tank:
         self.maxhealth = 130
         self.ability = earthquake
         self.damage_type = "physical"
+        self.coin = 100
 
     def takedamage(self, damage, damage_type):
         if damage_type == 'magical':
@@ -55,7 +56,7 @@ class Mage:
         self.exp = 0
         self.ability = strike
         self.damage_type = "magical"
-
+        self.coin = 100
     def takedamage(self, damage, damage_type):
         if damage_type == "magical":
             damage_after_armor = damage * 0.7
@@ -100,7 +101,7 @@ class Healer:
         self.exp = 0
         self.ability = fullheal
         self.damage_type = "magical"
-
+        self.coin = 100
     def heal(self, target):
         heal_amount = 20
         target.health = min(target.maxhealth, target.health + heal_amount)
