@@ -13,6 +13,9 @@ def enter_game():
             user_class=input("Invalid action. Please choose a correct class.").lower()
         game = False
     
+    game = True
+    while game == True:
+        
 
 enter_game()
 
