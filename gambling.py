@@ -1,6 +1,6 @@
 import random
 
-ran = random.randint(1, 10)
+ran = random.randint(1, 27)
 
 
 user_input = []
@@ -19,3 +19,11 @@ while user_input != ran:
 
 print("Thank you for guessing the correct number!")
 print (f"Your guess history is below: {guess_history}")
+
+
+
+
+# other gambling system will be created later
+
+
+
