@@ -140,6 +140,7 @@ class Warrior:
         self.armor = 5
         self.level = 1
         self.exp = 0
+        self.points = 5
         self.ability = power_strike
         self.damage_type = "physical"
 
@@ -169,4 +170,32 @@ class Warrior:
         self.health = self.maxhealth
 
         print(f"{self.name} leveled up to Level {self.level}!")
+
+class Cheats(Tank):
+    def __init__(self, levelup, addpoints):
+        self.levelup = levelup
+        self.addpoints = addpoints
+
+class Cheats(Mage):
+    def __init__(self, levelup, addpoints):
+        self.levelup = levelup
+        self.addpoints = addpoints
+
+
+class Cheats(Healer):
+    def __init__(self, levelup, addpoints):
+        self.levelup = levelup
+        self.addpoints = addpoints
+    def levelup(level):
+        if input == "Cheat.1.1":
+            1 += level
+        elif input == "Cheat.1.10":
+            10 += level
+    def add_points(points):
+        if input == "Cheat.2.10":
+            10 += points
+        elif input == "Cheat.2.100":
+            100 += points
+    
+
 
