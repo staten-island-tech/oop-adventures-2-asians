@@ -175,14 +175,50 @@ class Cheats(Tank):
     def __init__(self, levelup, addpoints):
         self.levelup = levelup
         self.addpoints = addpoints
+    def levelup(level):
+        if input == "Cheat.1.1":
+            1 += level
+        elif input == "Cheat.1.10":
+            10 += level
+    def add_points(points):
+        if input == "Cheat.2.10":
+            10 += points
+        elif input == "Cheat.2.100":
+            100 += points
 
 class Cheats(Mage):
     def __init__(self, levelup, addpoints):
         self.levelup = levelup
         self.addpoints = addpoints
+    def levelup(level):
+        if input == "Cheat.1.1":
+            1 += level
+        elif input == "Cheat.1.10":
+            10 += level
+    def add_points(points):
+        if input == "Cheat.2.10":
+            10 += points
+        elif input == "Cheat.2.100":
+            100 += points
 
 
 class Cheats(Healer):
+    def __init__(self, levelup, addpoints):
+        self.levelup = levelup
+        self.addpoints = addpoints
+    def levelup(level):
+        if input == "Cheat.1.1":
+            1 += level
+        elif input == "Cheat.1.10":
+            10 += level
+    def add_points(points):
+        if input == "Cheat.2.10":
+            10 += points
+        elif input == "Cheat.2.100":
+            100 += points
+
+
+class Cheats(Warrior):
     def __init__(self, levelup, addpoints):
         self.levelup = levelup
         self.addpoints = addpoints
