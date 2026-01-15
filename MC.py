@@ -178,14 +178,14 @@ class Cheats(Tank):
         self.addpoints = addpoints
     def levelup(level):
         if input == "Cheat.1.1":
-            1 += level
+            level +=1
         elif input == "Cheat.1.10":
-            10 += level
+            level +=10
     def add_points(points):
         if input == "Cheat.2.10":
-            10 += points
+            points += 10
         elif input == "Cheat.2.100":
-            100 += points
+            points += 100
 
 class Cheats(Mage):
     def __init__(self, levelup, addpoints):
@@ -193,14 +193,14 @@ class Cheats(Mage):
         self.addpoints = addpoints
     def levelup(level):
         if input == "Cheat.1.1":
-            1 += level
+            level +=1
         elif input == "Cheat.1.10":
-            10 += level
+            level +=10
     def add_points(points):
         if input == "Cheat.2.10":
-            10 += points
+            points += 10
         elif input == "Cheat.2.100":
-            100 += points
+            points += 100
 
 
 class Cheats(Healer):
@@ -209,14 +209,14 @@ class Cheats(Healer):
         self.addpoints = addpoints
     def levelup(level):
         if input == "Cheat.1.1":
-            1 += level
+            level +=1
         elif input == "Cheat.1.10":
-            10 += level
+            level +=10
     def add_points(points):
         if input == "Cheat.2.10":
-            10 += points
+            points += 10
         elif input == "Cheat.2.100":
-            100 += points
+            points += 100
 
 
 class Cheats(Warrior):
@@ -225,14 +225,14 @@ class Cheats(Warrior):
         self.addpoints = addpoints
     def levelup(level):
         if input == "Cheat.1.1":
-            1 += level
+            level +=1
         elif input == "Cheat.1.10":
-            10 += level
+            level +=10
     def add_points(points):
         if input == "Cheat.2.10":
-            10 += points
+            points += 10
         elif input == "Cheat.2.100":
-            100 += points
+            points += 100
     
 
 
